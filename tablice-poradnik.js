@@ -1,5 +1,5 @@
 // Your JavaScript code goes here
-
+'use stric'
 // Function to log messages to both the console and the HTML output
 function logMessage(message) {
     // Log to the console
