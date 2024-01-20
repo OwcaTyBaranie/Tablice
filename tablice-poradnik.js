@@ -35,6 +35,9 @@ const indexOfSecondCategory = 1; //wprowadzenie indexu
 const secondCategory = categories[indexOfSecondCategory]; //znalezienie indexu i stworzenie stałej secondCategory
 console.log('secondCategory:', secondCategory);
 
+const indexOfTravel = categories.indexOf('travel');//Sprawdzanie wartości indexu
+console.log('indexOfTravel:', indexOfTravel)
+console.log('value at indexOfTravel:', categories [indexOfTravel]);//Sprawdzenie value indexu
 
 
 
