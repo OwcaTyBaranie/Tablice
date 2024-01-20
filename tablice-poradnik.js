@@ -90,4 +90,11 @@ for (let i = 0; i < 3; i++) {
 //4. (console.log('Loop iteration: ' + i);): Ciało pętli
 //To jest kod, który będzie wykonywany w każdej iteracji pętli. W tym przypadku jest to polecenie console.log, które wyświetla komunikat z aktualną wartością i.
 
+//Pętla for of  umożliwia wykonywanie operacji na obiektach iterowalnych, takich jak tablice lub mapy.
+const animals = ['Cat', 'Dog', 'Mouse', 'Bird'];
+
+      for( let animal of animals ){
+        console.log(animal);
+      }
+
 
