@@ -42,6 +42,31 @@ console.log('value at indexOfTravel:', categories [indexOfTravel]);//Sprawdzenie
 const indexOfCars = categories.indexOf('cars');//Sprawdzenie czy dana wartość jest w środku elementu, jeżeli nie to zwróci -1
 console.log('indexOfCars:', indexOfCars);
 
+//Usuwanie elementów z tablicy z metodą splice
+const allRemovedValues = myArray.splice(starAtIndex, numberOfElements);
+
+//Wprowadzamy nowe elementy, aby je potem usunąć
+const newCategories = [];
+newCategories.push('fruits');
+newCategories.push('food');
+newCategories.push('phones');
+console.log('newCategories:', newCategories);
+
+//Sprawdzamy index of Fruits
+const indexOfFruits = newCategories.indexOf('fuits');
+console.log('indexOfFruits:', indexOfFruits);
+
+//Usuwamy elemt fruits
+const removedValues = newCategories.splice(indexOfFruits, 1);
+console.log('indexOfFruits:', indexOfFruits);
+console.log('newCategories:', newCategories);//Sprawdzamy jakie zostały kategorie
+
+//Wprowadzamy index of Food
+const indexOfFood = newCategories.indexOf('food');
+console.log('indexOfFood', indexOfFood);
+//Usuwamy element food
+newCategories.splice(indexOfFood, 2);
+console.log('newCategories:', newCategories)// Sprawdzamy jakie zostały kategorie
 
 
 
