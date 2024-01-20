@@ -39,5 +39,10 @@ const indexOfTravel = categories.indexOf('travel');//Sprawdzanie wartości index
 console.log('indexOfTravel:', indexOfTravel)
 console.log('value at indexOfTravel:', categories [indexOfTravel]);//Sprawdzenie value indexu
 
+const indexOfCars = categories.indexOf('cars');//Sprawdzenie czy dana wartość jest w środku elementu, jeżeli nie to zwróci -1
+console.log('indexOfCars:', indexOfCars);
+
+
+
 
 
