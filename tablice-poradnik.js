@@ -76,7 +76,10 @@ const joinedText = keywords.join(', ');
 const html = '<ul><li>' + keywords.join('</li><li>') + '</li></ul>';
 console.log('html;', html);
 
-
+//Tworzenie tablicy z tekstu
+const subjects = 'cat, cactus, needle';
+const subjectsArray = subjects.split(', ');
+console.log('subjectsArray;', subjectsArray);
 
 
 
