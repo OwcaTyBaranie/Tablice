@@ -68,6 +68,15 @@ console.log('indexOfFood', indexOfFood);
 newCategories.splice(indexOfFood, 2);
 console.log('newCategories:', newCategories)// Sprawdzamy jakie zostały kategorie
 
+//Generowanie tekstu z tablicy- metoda join
+const joinedText = keywords.join(', ');
+        console.log('joinedText:', joinedText); // joinedText: travel, France, Paris
+
+//Wygenerowanie tekstu w HTML
+const html = '<ul><li>' + keywords.join('</li><li>') + '</li></ul>';
+console.log('html;', html);
+
+
 
 
 
