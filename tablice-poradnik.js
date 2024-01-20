@@ -80,6 +80,14 @@ console.log('html;', html);
 const subjects = 'cat, cactus, needle';
 const subjectsArray = subjects.split(', ');
 console.log('subjectsArray;', subjectsArray);
-
+//Pętla for do iterowania po tablicach
+for (let i = 0; i < 3; i++) {
+    console.log('Loop iteration: ' + i);
+}
+//1.Inicjalizacja  (`let i = 0`): to inicjalizacja zmiennej i. Zmienna ta służy do śledzenia bieżącego stanu pętli.
+//2. i < 3 to warunek, który sprawdza, czy pętla powinna kontynuować działanie. W tym przypadku pętla będzie się powtarzać, dopóki i będzie mniejsze niż 3.
+//3. i++ to instrukcja, która wykonuje się po każdej iteracji pętli. W tym przypadku oznacza to zwiększenie wartości zmiennej i o 1 po każdej iteracji.
+//4. (console.log('Loop iteration: ' + i);): Ciało pętli
+//To jest kod, który będzie wykonywany w każdej iteracji pętli. W tym przypadku jest to polecenie console.log, które wyświetla komunikat z aktualną wartością i.
 
 
